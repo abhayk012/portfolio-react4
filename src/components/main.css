@@ -1,0 +1,153 @@
+.App {
+    width: 100%;
+    height: 411vh;
+    transition: background-color 0.25s ease-in-out;
+  }
+  
+.nav{
+background-color: rgb(45, 48, 44);
+
+}
+.navname{
+  color: white;
+}
+
+  #light{
+    background-color: white;
+    color: black;
+  }
+  
+#dark{
+  background-color: black;
+  color: white;
+  .toggle + label::after{
+    background-color: black;
+  }
+  .toggle + label::before{
+    background-color: white;
+  }
+  label{
+    color: white;
+  }
+  .skills__list-item {
+    
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  .cbody{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.nav{
+  background-color: rgb(240, 240, 240); 
+}
+.navname{
+  color: rgb(0, 0, 0);
+}
+.icon1 i {
+  color: rgb(255, 255, 255);
+}
+
+.icon2 i {
+  color: rgb(255, 255, 255);
+}
+
+.icon3 i {
+  color: rgb(255, 255, 255);
+}
+
+.icon4 i {
+  color: rgb(255, 255, 255);
+}
+.icon5 i {
+  color: rgb(255, 255, 255);
+}
+.download {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 30px 0px;
+  margin-left: 80px;
+}
+.ua{
+  background-color: white;
+}
+.ua i{
+  color: black;
+}
+
+
+  }
+
+  .toggle-container {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
+  
+  .toggle {
+    visibility: hidden;
+  }
+  
+  .toggle + label {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .toggle + label::before {
+    content: "";
+    height: 1em;
+    width: 2em;
+    border-radius: 1em;
+    background-color: black;
+    margin-right: 0.5em;
+    transition: background-color 250ms ease-in-out;
+  }
+  
+  .toggle + label::after {
+    content: "";
+    height: 0.8em;
+    width: 0.8em;
+    border-radius: 1em;
+    background-color: white;
+    position: absolute;
+    left: 0.2em;
+    transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
+  }
+  
+  .toggle:checked + label::after {
+    transform: translateX(100%);
+  }
+  
+  .myname{
+    margin-top: 300px;
+    margin-left: 100px;
+    
+  }
+
+  .me{
+    margin-top: 200px;
+    margin-left: 300px;
+    border-radius: 50%;
+    filter: drop-shadow(20px 7px 5px black);
+    height: 400px;
+  }
+
+  .download{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    margin-left: 80px;
+}
